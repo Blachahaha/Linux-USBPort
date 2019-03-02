@@ -17,7 +17,7 @@ int main( int argn, char **argv )
 
     if( usbp->connect() )
     {
-        dprintf(2, "ERROR: Cennot open USB device. Non permission (need root) or bat device path. \n");
+        dprintf(2, "ERROR: Cennot open USB device. Non permission (need root) or bad device path. \n");
         
         delete usbp;
         return -1;
